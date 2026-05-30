@@ -1,0 +1,13 @@
+[project]
+name = "HealthVc"
+version = "0.1.0"
+description = "Health query and GP medical note App to test Vercel and call to OpenApi"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.136.3",
+    "fastapi-clerk-auth>=0.0.9",
+    "openai>=2.38.0",
+    "pydantic>=2.13.4",
+    "uvicorn>=0.48.0",
+]
